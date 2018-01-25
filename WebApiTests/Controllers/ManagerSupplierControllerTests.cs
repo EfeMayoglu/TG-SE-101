@@ -68,7 +68,7 @@ namespace TG_SE_101.Controllers.Tests
             var response = controller.GetManagers(1453);
             Assert.IsNotNull(response);
             Assert.IsTrue(response.Any(x=>x.Id == manager.Id));
-            Assert.Fail();
+      
         }
     }
 }
