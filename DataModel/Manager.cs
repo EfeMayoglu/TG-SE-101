@@ -17,6 +17,6 @@ namespace DataModel
 
         public string Surname { get; set; }
 
-        public virtual IEnumerable<Supplier> Suppliers { get; set; }
+        public virtual List<Supplier> Suppliers { get; set; }
     }
 }

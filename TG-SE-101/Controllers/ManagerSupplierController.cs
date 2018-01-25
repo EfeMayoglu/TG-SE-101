@@ -37,5 +37,43 @@ namespace TG_SE_101.Controllers
         {
             managerSuppliers.Add(managerSupplier);
         }
+        /// <summary>
+        /// Manager'a tedarikçi ekleme
+        /// </summary>
+        /// <param name="supplier">Tedarikçi </param>
+        /// <param name="id">Manager Id si</param>
+        /// <returns></returns>
+        public bool Post([FromBody]Supplier supplier, int id)
+        {
+            var manager = managerSuppliers.Where(x => x.Id == id)
+                .Select(x => x.Manager)
+                .FirstOrDefault();
+             
+            if (manager != null)
+            {
+                manager.Suppliers = new List<Supplier>
+                {
+                    supplier
+                };
+            }
+            return true;
+        }
+
+        //public bool Remove([FromBody]Supplier supplier, int id)
+        //{
+        //    var manager = managerSuppliers.Where(x => x.Id == id)
+        //        .Select(x => x.Manager)
+        //        .FirstOrDefault();
+
+        //    if (manager != null)
+        //    {
+        //        manager.Suppliers = new List<Supplier>
+        //        {
+        //            supplier
+        //        };
+        //    }
+        //    return true;
+        //}
+
     }
 }
