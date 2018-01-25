@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "TG-SE-101\WebApi.csproj", "{E091F797-4BB0-406F-994B-2B456F9B3FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{F382AABE-E9BF-41D1-A2B2-863E59082696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTests", "WebApiTests\WebApiTests.csproj", "{EB5A3E8D-8261-4AE2-9182-A8C741EAC725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E091F797-4BB0-406F-994B-2B456F9B3FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E091F797-4BB0-406F-994B-2B456F9B3FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E091F797-4BB0-406F-994B-2B456F9B3FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E091F797-4BB0-406F-994B-2B456F9B3FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F382AABE-E9BF-41D1-A2B2-863E59082696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F382AABE-E9BF-41D1-A2B2-863E59082696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F382AABE-E9BF-41D1-A2B2-863E59082696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F382AABE-E9BF-41D1-A2B2-863E59082696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5A3E8D-8261-4AE2-9182-A8C741EAC725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5A3E8D-8261-4AE2-9182-A8C741EAC725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5A3E8D-8261-4AE2-9182-A8C741EAC725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5A3E8D-8261-4AE2-9182-A8C741EAC725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4495A49-C314-471E-8C27-F49EF4479522}
+	EndGlobalSection
+EndGlobal
